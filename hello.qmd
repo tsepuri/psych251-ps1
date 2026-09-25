@@ -2,3 +2,7 @@
 ```{r}
 summary(cars)
 ```
+what columns does `cars` have?
+```{r}
+colnames(cars)
+```
