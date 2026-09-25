@@ -1,0 +1,4 @@
+# Car summary
+```{r}
+summary(cars)
+```
