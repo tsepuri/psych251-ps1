@@ -1,5 +1,5 @@
 ---
-title: Hello, conflicts
+title: Summary and plot of car dataset
 ---
 # Car summary
 ```{r}
