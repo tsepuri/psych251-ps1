@@ -1,5 +1,8 @@
 ---
 title: Summary and plot of car dataset
+format:
+  html:
+    embed-resources: true
 ---
 # Car summary
 ```{r}
