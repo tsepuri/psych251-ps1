@@ -1,8 +1,23 @@
 # Car summary
 ```{r}
+library(tidyverse)
+```
+
+```{r}
 summary(cars)
 ```
 what columns does `cars` have?
 ```{r}
 colnames(cars)
+```
+
+```{r}
+ggplot(cars, aes(x=speed, y=dist)) +
+  geom_point() + 
+  geom_smooth(method="lm") +
+  ggpubr::stat_cor() +
+  ylab("stopping distance (ft)") +
+  xlab("speed (mph)") +
+  ggtitle("Correlation between speed and stopping distance of cars") +
+  theme_classic()
 ```
