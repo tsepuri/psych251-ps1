@@ -1,4 +1,4 @@
-# Car summary
+# Summary and plot of cars dataset
 ```{r}
 library(tidyverse)
 ```
